@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Flowtypus</title>
+        <script src="./script.js" type="module"></script>
+        <script src="./reloadable-script.js" defer data-flowtypus-reload></script>
+        <meta name="description" content="Flowtypus is, I think, the best tool in the world" />
+        <meta name="keywords" content="flowtypus, platypus, flow" />
+        <link href="./style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./" data-flowtypus-target-template="home">Home</a>
+                </li>
+                <li>
+                    <a href="./infos" data-flowtypus-target-template="infos">Infos</a>
+                </li>
+            </ul>
+        </nav>
+        <section data-flowtypus-container>
+            <div data-flowtypus-view="home">
+                <h1>Flowtypus</h1>
+                <p class="sub-title">
+                    Flowtypus is the perfect reproduction of the movements of a platypus in all it's
+                    grace.
+                </p>
+                <p>
+                    Flowtypus is a small module usefull to make transitions between pages of a
+                    static website. The navigation between the pages of this website is maded with
+                    Flowtypus and you can try it at home! It's really simple to init, you just have
+                    to do something like:
+                </p>
+                <pre class="code">
+<code>import flowtypus from '@keienla/flowtypus'
+flowtypus()</code>
+</pre>
+                <p>
+                    And that's it! Simple right? Like this ths transitions will be automatic. If you
+                    want more infos about the possibilities, go to the
+                    <a href="./infos" data-flowtypus-target-template="infos">infos page</a>!
+                </p>
+            </div>
+        </section>
+        <div class="modales"></div>
+        <div class="loader"></div>
+    </body>
+</html>

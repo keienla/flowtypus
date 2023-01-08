@@ -1,0 +1,13 @@
+# Add files here to ignore them from prettier formatting
+node_modules
+dist
+package-lock.json
+.git
+tsconfig.*.json
+tsconfig.json
+tslint.json
+package.json
+patch.js
+
+#ignore assets
+assets

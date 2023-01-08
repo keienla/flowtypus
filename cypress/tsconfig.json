@@ -1,0 +1,22 @@
+{
+    "extends": "./../tsconfig.json",
+    "compilerOptions": {
+        "noEmit": true,
+        "types": ["cypress"]
+    },
+    "include": [
+        "./**/*.ts", "./../cypress.config.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**.*.spec.ts",
+        "**.*.test.ts",
+        "config",
+        "dist",
+        "@types",
+        "tmp",
+        "build",
+        ".cache",
+        ".vscode"
+    ]
+}
